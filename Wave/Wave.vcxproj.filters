@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00.Main">
+      <UniqueIdentifier>{82941b4c-2919-48a2-b971-81cd979ff5f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Header">
+      <UniqueIdentifier>{66dd4fa6-d89c-4301-a1ed-2eef02628587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object">
+      <UniqueIdentifier>{796d4eca-0a06-4cbd-8c11-e5fc867ff57d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\Player">
+      <UniqueIdentifier>{00e12b7f-b53e-49ca-a26e-14ccfa8650af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\Star">
+      <UniqueIdentifier>{22ed86a2-939d-4975-82d8-8b44c19fa7e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Light">
+      <UniqueIdentifier>{b870cb6c-9f31-4a6f-a447-c49e46856fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Manager">
+      <UniqueIdentifier>{0cff9124-cf3a-4aa3-9402-44c283c5a274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Manager\00.SceneMgr">
+      <UniqueIdentifier>{a57af1d1-18d3-4c00-9678-235546da5d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene">
+      <UniqueIdentifier>{33047dd0-cd4a-4ac0-afcd-937f2c42e56a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\00.LoginScene">
+      <UniqueIdentifier>{60186b88-27c4-477d-b13a-fa4f55fe6455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\01.GameScene">
+      <UniqueIdentifier>{db379ce4-4015-4466-a3a3-60184706c2b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\02.GameOverScene">
+      <UniqueIdentifier>{6342af97-3f30-4907-92cc-4444f0851575}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>01.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>02.Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>01.Object\Star</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>04.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>04.Scene\02.GameOverScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginScene.cpp">
+      <Filter>04.Scene\00.LoginScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>04.Scene\01.GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>05.Manager\00.SceneMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>01.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>02.Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>99.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>99.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>99.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>04.Scene\02.GameOverScene</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginScene.h">
+      <Filter>04.Scene\00.LoginScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>04.Scene\01.GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>05.Manager\00.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>01.Object\Star</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>04.Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
